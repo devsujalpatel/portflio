@@ -32,17 +32,17 @@ const HeroSection = () => {
           }}
           className="text-xl md:text-1xl lg:text-2xl text-purple-200 max-w-2xl"
         >
-          Passionate and results-driven Full Stack Developer with experience
-          building 100+ React projects and 50+ MERN stack applications. Skilled
-          in JavaScript, TypeScript, React, Node.js, and MongoDB, with a strong
-          focus on building scalable, high-performance web applications. Solved
-          200+ LeetCode problems, showcasing solid problem-solving and
-          analytical skills. I take pride in writing clean, maintainable code
-          and delivering impactful, user-focused solutions.
+          Passionate and results-driven Full Stack Developer with experience in
+          JavaScript, TypeScript, React, Node.js, and MongoDB, with a strong
+          focus on building scalable, high-performance web applications and
+          delivering impactful, user-focused solutions.
         </motion.p>
       </div>
       {/* RIght section */}
-      <Spline className="absolute xl:right-[-28%] right-0 top-[-20%] lg:top-0" scene="https://prod.spline.design/EEQhNBVOPIkjIO10/scene.splinecode" />
+      <Spline
+        className="absolute xl:right-[-28%] right-0 top-[-20%] lg:top-0"
+        scene="https://prod.spline.design/EEQhNBVOPIkjIO10/scene.splinecode"
+      />
     </section>
   );
 };
